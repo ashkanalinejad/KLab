@@ -1,0 +1,16 @@
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\KLab.ActionTypeSelectionForm.resources
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\KLab.Controls.AddRemoveMemSpecifiedList.resources
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\KLab.Controls.ProcessEditPanel.resources
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\KLab.Controls.RemovableDropDownControl.resources
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\KLab.PublicAnnouncementEditor.resources
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\KLab.SecretAnnouncementEditor.resources
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\KLab.Controls.AddTextControl.resources
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\KLab.Controls.AddRemoveListControl.resources
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\KLab.Controls.AddRemoveEditListControl.resources
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\KLab.Controls.FormulaControl.resources
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\KLab.Controls.RemovableEditableTextControl.resources
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\KLab.Controls.RemovableTextControl.resources
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\KLab.KLabMainForm.resources
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\KLab.Properties.Resources.resources
+C:\Users\vaio\Desktop\KLab\Backup\KLab\obj\Debug\KLab.csproj.GenerateResource.Cache

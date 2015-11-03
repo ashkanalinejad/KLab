@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{673247A4-3D78-42B4-BDA8-560948B0FEC5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EpistemicProcessChain</RootNamespace>
+    <AssemblyName>EpistemicProcessChain</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ciloci.Flee, Version=0.9.26.0, Culture=neutral, PublicKeyToken=c8526a021ef298ed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\KLab\lib\Ciloci.Flee.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\AddRemoveEditListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AddRemoveEditListControl.Designer.cs">
+      <DependentUpon>AddRemoveEditListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AddRemoveListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AddRemoveListControl.Designer.cs">
+      <DependentUpon>AddRemoveListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AddRemoveMemSpecifiedList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AddRemoveMemSpecifiedList.Designer.cs">
+      <DependentUpon>AddRemoveMemSpecifiedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AddTextControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AddTextControl.Designer.cs">
+      <DependentUpon>AddTextControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FormulaControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FormulaControl.Designer.cs">
+      <DependentUpon>FormulaControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProcessEditPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ProcessEditPanel.Designer.cs">
+      <DependentUpon>ProcessEditPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RemovableDropDownControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\RemovableDropDownControl.Designer.cs">
+      <DependentUpon>RemovableDropDownControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RemovableEditableTextControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\RemovableEditableTextControl.Designer.cs">
+      <DependentUpon>RemovableEditableTextControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RemovableTextControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\RemovableTextControl.Designer.cs">
+      <DependentUpon>RemovableTextControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EpistemicProcessChainEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EpistemicProcessChainEditor.Designer.cs">
+      <DependentUpon>EpistemicProcessChainEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ActionModelCheckReport.cs" />
+    <Compile Include="Models\ActionModels\ActionIndecisionPair.cs" />
+    <Compile Include="Models\ActionModels\ActionModel.cs" />
+    <Compile Include="Models\ActionModels\ActionModelType.cs" />
+    <Compile Include="Models\ActionModels\ActionState.cs" />
+    <Compile Include="Models\ActionModels\Announcement\AnnounceActionModel.cs" />
+    <Compile Include="Models\ActionModels\Announcement\PublicAnnouncement.cs" />
+    <Compile Include="Models\ActionModels\Announcement\PublicAnnouncementInfo.cs" />
+    <Compile Include="Models\ActionModels\Announcement\SecretAnnouncement.cs" />
+    <Compile Include="Models\ActionModels\Announcement\SecretAnnouncementInfo.cs" />
+    <Compile Include="Models\Agent.cs" />
+    <Compile Include="Models\AssossiativeSet.cs" />
+    <Compile Include="Models\Atomic.cs" />
+    <Compile Include="Models\EAModel\EAState.cs" />
+    <Compile Include="Models\EAModel\EAStatePair.cs" />
+    <Compile Include="Models\EpisState.cs" />
+    <Compile Include="Models\EpistemicModel.cs" />
+    <Compile Include="Models\EpistemicProcess.cs" />
+    <Compile Include="Models\EpisTransitionPair.cs" />
+    <Compile Include="Models\Formula.cs" />
+    <Compile Include="Models\ModelConfiguration.cs" />
+    <Compile Include="Models\ProcessChain.cs" />
+    <Compile Include="Models\Token.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\AddRemoveEditListControl.resx">
+      <DependentUpon>AddRemoveEditListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AddRemoveListControl.resx">
+      <DependentUpon>AddRemoveListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AddRemoveMemSpecifiedList.resx">
+      <DependentUpon>AddRemoveMemSpecifiedList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AddTextControl.resx">
+      <DependentUpon>AddTextControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FormulaControl.resx">
+      <DependentUpon>FormulaControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ProcessEditPanel.resx">
+      <DependentUpon>ProcessEditPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RemovableDropDownControl.resx">
+      <DependentUpon>RemovableDropDownControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RemovableEditableTextControl.resx">
+      <DependentUpon>RemovableEditableTextControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RemovableTextControl.resx">
+      <DependentUpon>RemovableTextControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EpistemicProcessChainEditor.resx">
+      <DependentUpon>EpistemicProcessChainEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Add.png" />
+    <Content Include="Resources\Check.png" />
+    <Content Include="Resources\Edit.png" />
+    <Content Include="Resources\Play.png" />
+    <None Include="Resources\Remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
